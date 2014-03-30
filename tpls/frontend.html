@@ -1,10 +1,13 @@
+{% load staticfiles %}
 <html>
  <head>
   <title>Заголовок</title>
  </head>
+ <link rel="stylesheet" href="{% static "css/frontend/index.css" %}" type="text/css" />
  <body>
   <p>Результат!</p>
   {% block news %}
   {% endblock %}
+  <img src="{% static "images/1.png" %}" />
  </body>
 </html>

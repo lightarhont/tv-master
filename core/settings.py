@@ -85,5 +85,9 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.6/howto/static-files/
+#STATIC_ROOT = '/mnt/webserver/pythonproject/tv/'
+STATIC_URL = '/assets/'
 
-STATIC_URL = '/static/'
+STATICFILES_DIRS = (
+    ('assets', '/mnt/webserver/pythonproject/tv/assets')
+)
