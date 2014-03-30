@@ -1,11 +1,7 @@
-from django.shortcuts import render
-from django.http import HttpResponse
-from django.template.loader import get_template
-from django.template import Context
-
+from django.shortcuts import render_to_response
+from news.models import News
 # Create your views here.
 
 def news(request):
-    t = get_template('frontend.html')
-    result = t.render(Context())
-    return HttpResponse(result)
+    Allnews = News.objects.all()
+    return render_to_response('news/shownews.html', {'Allnews':Allnews})

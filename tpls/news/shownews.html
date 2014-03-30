@@ -1,0 +1,7 @@
+{% extends 'frontend.html' %}
+
+{% block news %}
+ {% for News in Allnews %}
+  <div>{{ News.newstext }}</div>
+ {% endfor %}
+{% endblock %}
