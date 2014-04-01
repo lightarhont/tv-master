@@ -1,13 +1,107 @@
 {% load staticfiles %}
+
+<!DOCTYPE html>
 <html>
  <head>
   <title>Заголовок</title>
  </head>
  <link rel="stylesheet" href="{% static "css/frontend/index.css" %}" type="text/css" />
  <body>
-  <p>Результат!</p>
-  {% block news %}
-  {% endblock %}
-  <img src="{% static "images/1.png" %}" />
+  <div class="middle">
+   <div class="lp">
+    <div class="tableheader">на неделю с 08.04.2013 по 14.04.2013 </div>
+    <div class="pagination"><div>страницы</div>  <ul><li>1</li>  <li>2</li>  <li>3</li>  <li>4</li></ul></div>
+    <table class="canaltable" cellpadding="0" cellspacing="0" width="100%">
+     <tr>
+      <td>
+       <div class="headerfirst">телепрограмма</div>
+       <div class="teletypeheaders">
+        <div class="full">
+         Полная
+        </div>
+        <div class="condensed">
+         Сокращённая
+        </div>
+        <div class="annonces">
+         Анносы
+        </div>
+       </div>
+       <div class="teletypebuttons">
+        <div class="full">
+         <button id="allfull">Весь пакет</button>
+         <button id="assemblyfull">Сборка</button>
+        </div>
+        <div class="condensed">
+         <button id="allcondensed">Весь пакет</button>
+         <button id="assemblycondensed">Сборка</button>
+        </div>
+        <div class="annonces">
+         <button id="allannonces">Весь пакет</button>
+        </div>
+       </div>
+      </td>
+      <td>
+       <div class="header">название телеканалов</div>
+      </td>
+      <td>
+       <div class="header">GMT</div>
+       <div class="addtake"><button id="addgmt">+</button><button id="takegmt">-</button></div>
+      </td>
+      <td>
+       <div class="header">размер</div>
+      </td>
+      <td>
+       <div class="header">дата обновления</div>
+      </td>
+     </tr>
+    </table>
+    <table class="canaltable2" cellpadding="0" cellspacing="0" width="100%">
+     <tr>
+      <td>animal_rus</td>
+      <td>animal_rus</td>
+      <td>an_animal_rus</td>
+      <td>Animal Planet.</td>
+      <td>-   2  +</td>
+      <td>4.21 Kb</td>
+      <td>05 04.2013    12:49</td>
+     </tr>
+     <tr>
+      <td>animal_rus</td>
+      <td>animal_rus</td>
+      <td>an_animal_rus</td>
+      <td>Animal Planet.</td>
+      <td>-   2  +</td>
+      <td>4.21 Kb</td>
+      <td>05 04.2013    12:49</td>
+     </tr>
+     <tr>
+      <td>animal_rus</td>
+      <td>animal_rus</td>
+      <td>an_animal_rus</td>
+      <td>Animal Planet.</td>
+      <td>-   2  +</td>
+      <td>4.21 Kb</td>
+      <td>05 04.2013    12:49</td>
+     </tr>
+    </table>
+   </div>
+   <div class="rp">
+    <div class="applicationform">
+     <form>
+      <div class="header">обратная связь</div>
+      <textarea name="message">
+      </textarea>
+      <input type="hidden" name="thisemail" value="" />
+      <input type="submit" name="submit" value="Отправить" />
+     </form>
+    </div>
+    <div class="lastnews">
+     <div class="header">ИНФОРМАЦИЯ</div>
+     {% block news %}
+     {% endblock %}
+    </div>
+   </div>
+   
+  </div>
  </body>
 </html>

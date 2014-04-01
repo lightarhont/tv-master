@@ -1,5 +1,363 @@
 
-div
+body
 {
-color:red;
+margin: 0px;
+padding: 0px;
+}
+
+div.middle
+{
+float: left;
+width: 1408px;
+margin-left: 9px;
+border-bottom: #5b3434 solid 1px;
+}
+
+div.lp
+{
+width:1172px;
+float: left;
+height: 200px;
+/*
+background-color: darkblue;
+*/
+}
+
+div.tableheader
+{
+float: left;
+clear: both;
+width: 100%;
+color:#0000ff;
+text-align: center;
+margin-bottom: 5px;
+font-size: 15px;
+}
+
+div.pagination
+{
+width: 100%;
+float: left;
+clear: both;
+margin-bottom: 5px;
+font-size: 13px;
+font-weight: bold;
+font-style: italic;
+}
+
+div.pagination div
+{
+float: left;
+}
+
+div.pagination ul
+{
+float: left;
+margin: 0px;
+padding: 0px;
+}
+
+div.pagination li
+{
+float: left;
+list-style: none;
+margin-left: 5px;
+}
+
+table.canaltable td
+{
+border-left: solid 1px white;
+vertical-align: top;
+}
+
+table.canaltable td:nth-child(1)
+{
+border-left:none !important;
+width: 354px;
+}
+
+table.canaltable td:nth-child(2)
+{
+width: 278px;
+}
+
+table.canaltable td:nth-child(3)
+{
+width: 83px;
+}
+
+table.canaltable td:nth-child(4)
+{
+width: 94px;
+}
+
+table.canaltable td:nth-child(5)
+{
+width: 359px;
+}
+
+table.canaltable div.header
+{
+background-color: #d2e9ff;
+height: 45px;
+float: left;
+clear: both;
+width: 100%;
+text-align: center;
+font-weight: bold;
+font-family: Arial;
+font-size: 13px;
+line-height: 45px;
+}
+
+table.canaltable div.headerfirst
+{
+background-color: #d2e9ff;
+height: 22px;
+float: left;
+clear: both;
+width: 100%;
+text-align: center;
+font-weight: bold;
+font-family: Arial;
+font-size: 13px;
+line-height: 22px;
+}
+
+table.canaltable div.teletypeheaders
+{
+margin-top: 1px;
+float: left;
+clear: both;
+width: 100%;
+}
+
+div.teletypeheaders div.full
+{
+background-color: #eaf4ff;
+width:114px;
+height: 22px;
+float: left;
+text-align: center;
+font-family: Arial;
+font-size: 13px;
+line-height: 22px;
+}
+
+div.teletypeheaders div.condensed
+{
+background-color: #eaf4ff;
+width:104px;
+height: 22px;
+float: left;
+margin-left: 1px;
+text-align: center;
+font-family: Arial;
+font-size: 13px;
+line-height: 22px;
+}
+
+div.teletypeheaders div.annonces
+{
+background-color: #eaf4ff;
+width:134px;
+height: 22px;
+float: left;
+margin-left: 1px;
+text-align: center;
+font-family: Arial;
+font-size: 13px;
+line-height: 22px;
+}
+
+div.teletypebuttons
+{
+float: left;
+clear: both;
+width: 100%;
+margin-top: 3px;
+}
+
+div.teletypebuttons div.full
+{
+width:114px;
+float: left;
+text-align: center;
+}
+
+div.teletypebuttons div.condensed
+{
+width:104px;
+float: left;
+margin-left: 1px;
+text-align: center;
+}
+
+div.teletypebuttons div.annonces
+{
+width:134px;
+float: left;
+margin-left: 1px;
+text-align: center;
+}
+
+#assemblyfull
+{
+margin-top: 3px;
+}
+
+#assemblycondensed
+{
+margin-top: 3px;
+}
+
+div.addtake
+{
+float: left;
+width: 100%;
+margin-top: 3px;
+text-align: center;
+}
+
+#addgmt
+{
+}
+
+#takegmt
+{
+margin-left: 5px;
+}
+
+table.canaltable2 td
+{
+border-left: solid 1px white;
+vertical-align: top;
+text-align: center;
+padding-top:5px;
+font-family: Arial;
+font-size: 13px;
+}
+
+table.canaltable2 td:nth-child(1)
+{
+border-left:none !important;
+color:#0000ff;
+width:114px;
+}
+
+table.canaltable2 td:nth-child(2)
+{
+color:#0000ff;
+width:104px;
+}
+
+table.canaltable2 td:nth-child(3)
+{
+color:#0000ff;
+width:134px;
+}
+
+table.canaltable2 td:nth-child(4)
+{
+text-align:left;
+width:278px;
+}
+
+table.canaltable2 td:nth-child(5)
+{
+font-weight: bold;
+width:83px;
+}
+
+table.canaltable2 td:nth-child(6)
+{
+width:94px;
+}
+
+table.canaltable2 td:nth-child(7)
+{
+width:359px;
+}
+
+div.rp
+{
+width: 228px;
+float: left;
+/*
+background-color: darkred;
+*/
+margin-left: 8px;
+}
+
+div.applicationform
+{
+float: left;
+clear: both;
+width: 100%;
+margin-top: 20px;
+}
+
+div.applicationform .header
+{
+float: right;
+clear: both;
+font-family: Arial;
+font-size: 13px;
+font-weight: bold;
+margin-bottom: 25px; 
+}
+
+div.applicationform textarea
+{
+width: 224px;
+height: 90px;
+}
+
+div.applicationform input
+{
+float: right;
+}
+
+div.lastnews
+{
+float: left;
+clear: both;
+width: 100%;
+margin-top: 68px;
+font-size: 14px;
+}
+
+div.lastnews .header
+{
+float: left;
+clear: both;
+width: 100%;
+margin-bottom: 10px;
+text-align: center;
+font-weight: bold;
+}
+
+div.news
+{
+float: left;
+clear: both;
+border: solid 1px #6699ff;
+margin-bottom: 23px;
+width: 220px;
+padding: 3px;
+min-height: 113px;
+}
+
+div.news .newsdate
+{
+float: left;
+clear: both;
+font-weight: bold;
+}
+
+div.news .newstext
+{
+margin-top: 22px;
+float: left;
+clear: both;
 }

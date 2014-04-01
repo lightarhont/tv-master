@@ -2,6 +2,13 @@
 
 {% block news %}
  {% for News in Allnews %}
-  <div>{{ News.newstext }}</div>
+  <div class="news">
+   <div class="newsdate">
+    {{ News.datetime | date:"d.m.Y h:i" }}
+   </div>
+   <div class="newstext">
+    {{ News.newstext }}
+   </div>
+  </div>
  {% endfor %}
 {% endblock %}
