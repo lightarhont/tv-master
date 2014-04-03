@@ -17,10 +17,179 @@ div.lp
 {
 width:1172px;
 float: left;
-height: 200px;
 /*
 background-color: darkblue;
 */
+}
+
+div.top
+{
+float: left;
+width: 1172px;
+margin-top: 10px;
+}
+
+div.topleft
+{
+float: left;
+width: 540px;
+}
+
+div.topleft div.stage1
+{
+float: left;
+clear: both;
+}
+
+div.logo
+{
+float: left;
+}
+
+div.logodesc
+{
+float: left;
+margin-left: 22px;
+font-family: Arial;
+font-size: 13px;
+font-style: italic;
+}
+
+div.logodesc div
+{
+float: left;
+clear: both;
+margin-bottom: 3px;
+}
+
+div.logodesc div.datetime
+{
+margin-bottom: 20px;
+margin-top: 5px;
+font-style: normal;
+}
+
+div.logodesc div.tel a
+{
+padding-left: 10px;
+font-weight: bold;
+}
+
+div.topleft div.stage2
+{
+float: left;
+clear: both;
+background-color: #3787ff;
+color: white;
+line-height: 23px;
+font-family: Arial;
+font-size: 13px;
+font-weight: bold;
+margin-top: 3px;
+margin-bottom: 3px;
+}
+
+div.stage2lp
+{
+float: left;
+width: 263px;
+border-right: solid 2px white;
+text-align: center;
+}
+
+div.stage2rp
+{
+float: left;
+width: 275px;
+text-align: center;
+}
+
+div.topleft div.stage3
+{
+float: left;
+clear: both;
+}
+
+div.topleft div.stage3 div
+{
+float: left;
+padding-right: 10px;
+padding-left: 10px;
+}
+
+div.topleft div.stage3 span
+{
+float: left;
+font-family: Arial;
+font-size: 13px;
+font-weight: bold;
+padding-top: 2px;
+}
+
+div.topleft div.stage3 div:nth-child(1)
+{
+padding-left: 0px !important;
+}
+
+div.topleft div.stage3 a
+{
+text-decoration: none;
+color: black;
+font-family: Arial;
+font-size: 13px;
+line-height: 15px;
+font-weight: bold;
+}
+
+div.topleft div.stage3 a.active
+{
+background-color: black;
+color: white;
+padding-left: 7px;
+padding-right: 7px;
+}
+
+div.topleft div.stage4
+{
+float: left;
+clear: both;
+margin-top: 5px;
+}
+
+div.stage4 span
+{
+color: #800080;
+padding-left: 5px;
+font-family: Arial;
+font-size: 13px;
+}
+
+div.topright
+{
+float: left;
+width: 632px;
+margin-top: 20px;
+font-family: Arial;
+font-size: 14px;
+}
+
+div.topright div
+{
+float: right;
+clear: both;
+}
+
+div.topright div.clientinfotitle
+{
+font-style: italic;
+text-decoration: underline;
+margin-bottom: 5px;
+}
+
+div.topright div.dateexpired span
+{
+font-weight: bold;
+color: #008026;
 }
 
 div.tableheader
@@ -279,6 +448,30 @@ table.canaltable2 td:nth-child(7)
 width:359px;
 }
 
+div.tableheader2
+{
+float: left;
+clear: both;
+width: 100%;
+margin-top: 50px;
+margin-bottom: 10px;
+padding-bottom: 10px;
+border-bottom: 2px solid #0000ff;
+text-align: center;
+font-family: Arial;
+}
+
+div.tableheader2 .header
+{
+font-size: 14px;
+}
+
+div.tableheader2 .desc
+{
+font-size: 13px;
+font-style: italic;
+}
+
 div.rp
 {
 width: 228px;
@@ -360,4 +553,21 @@ div.news .newstext
 margin-top: 22px;
 float: left;
 clear: both;
+}
+
+div.footer
+{
+float: left;
+clear: both;
+width: 1408px;
+margin-top: 14px;
+text-align: center;
+font-family: Arial;
+font-size: 13px;
+font-style: italic;
+}
+
+div.footer div.header
+{
+font-weight: bold;
 }

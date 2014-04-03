@@ -30,6 +30,9 @@ TEMPLATE_DIRS = (
     '/mnt/webserver/pythonproject/tv/tpls',
 )
 
+#Своя модель пользователя
+AUTH_USER_MODEL = "accounts.User"
+
 # Application definition
 
 INSTALLED_APPS = (
@@ -40,6 +43,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'news',
+    'accounts',
 )
 
 MIDDLEWARE_CLASSES = (
